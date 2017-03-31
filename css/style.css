@@ -1,0 +1,107 @@
+body {
+    font: 14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #666;
+    background: #eae6d1;
+    width:100%;
+    margin:0;
+}
+
+header {
+    padding: 25px 20px 40px 20px;
+    text-align: center;
+    background: cornflowerblue;
+    margin: 0;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+
+header p {
+    color: #d8d8d8;
+    text-shadow: rgba(0, 0, 0, 0.2) 0 1px 0;
+    font-size: 18px;
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+a {
+    color: #3399cc;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+#banner{
+    background: #ffcc00;
+    position: relative;
+    height: 50px;
+    top: -25px;
+    z-index: 100;
+    margin-right: 300px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.wrapper {
+    width: 650px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+nav{
+    width: 230px;
+    position: relative;
+    float: left;
+    margin-left: -580px;
+    left:50%;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    list-style-image: none;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+section{
+    position: relative;
+    width: 590px;
+}
+
+
+
+h1 {
+    font-size: 28px;
+    color: white;
+}
+
+h2 {
+    font-size: 24px;
+    color: #393939;
+}
+
+h3, h4, h5, h6 {
+    color: #666666;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+
+th {
+    text-align: left;
+    padding: 5px 10px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #444;
+}
+
+td {
+    text-align: left;
+    padding: 5px 10px;
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #ffcc00;
+}
